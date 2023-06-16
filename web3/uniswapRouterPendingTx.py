@@ -13,7 +13,7 @@ print(f'{Fore.YELLOW} Connected: {Fore.WHITE} {web3.is_connected()}')
 def EventHandler(pending_tx):
     transaction = json.loads(pending_tx)
     txHash = transaction['params']['result']
-    tx = web3.eth.get.get_transaction(txHash)
+    tx = web3.eth.get_transaction(txHash)
     if tx['to'] == web3.toChecksumAddress("0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"):
         print(web3.toHex(tx['hash']))
     
