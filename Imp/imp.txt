@@ -3,3 +3,6 @@ Host, run, and code Python in the cloud!
 
 2)import streamlit
 # streamlit run file.py
+
+3) to see all installed Python package
+# pip freeze
