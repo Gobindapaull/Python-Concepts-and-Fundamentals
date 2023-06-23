@@ -10,3 +10,6 @@ Host, run, and code Python in the cloud!
 4)check the pip version
 pip --version
 
+5)list of installed packages
+pip list
+
