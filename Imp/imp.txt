@@ -13,3 +13,6 @@ pip --version
 5)list of installed packages
 pip list
 
+6)dir
+to see all files and folders
+
