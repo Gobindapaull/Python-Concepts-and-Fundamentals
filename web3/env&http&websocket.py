@@ -8,3 +8,7 @@ ws3 = Web3(Web3.WebsocketProvider(os.getenv('WEBSOCKET_URL')))
 
 print('HTTPProvider: ', w3.is_connected())
 print('WebsocketProvider: ', ws3.is_connected())
+
+
+# HTTPProvider:  True
+# WebsocketProvider:  True
