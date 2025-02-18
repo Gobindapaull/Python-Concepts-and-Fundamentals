@@ -1,0 +1,10 @@
+\\wsl$
+tar -xzvf Hadronic_Emission_Codes.tar.gz
+python3 --version
+import numpy as np
+
+sudo apt install python3-pip
+pip3 install numpy
+pip3 install astropy
+pip3 install pandas
+pip3 install matplotlib
