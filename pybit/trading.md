@@ -1,0 +1,5 @@
+- Python and Bybit API
+- 100x leverage
+- pip install pybit
+- Successfully installed pybit-5.11.0
+- python3 start.py
