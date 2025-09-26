@@ -1,1 +1,5 @@
 - strip()
+- python -m venv env
+- pip install "fastapi[standard]"
+- python.exe -m pip install --upgrade pip
+- pip --version 
